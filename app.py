@@ -20,7 +20,7 @@ os.makedirs(app.config['RESULTS_FOLDER'], exist_ok=True)
 
 # Initialize LangChain LLM
 llm = ChatGroq(
-    api_key="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",
+    api_key="api_key_here",  # Replace with your actual API key
     model="llama-3.3-70b-versatile",  # Updated model name
     temperature=0.0
 )
